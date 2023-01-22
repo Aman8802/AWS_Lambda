@@ -3,7 +3,7 @@ import boto3
 
 def lambda_handler(event, context):
     # TODO implement
-    session = boto3.Session(aws_access_key_id="AKIA2OLGZXFFDIN7ZVV5",aws_secret_access_key="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")
+    session = boto3.Session(aws_access_key_id="AKIA2O******",aws_secret_access_key="hiZ2pp+8W0gvGnANY*********")
  
 
     client = session.client('iam')
